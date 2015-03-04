@@ -1,0 +1,1 @@
+$name = $_POST['name']

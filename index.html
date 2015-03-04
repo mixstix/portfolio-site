@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>MXTX - Designer/Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+  <!-- LINKS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="fonts/didot/stylesheet.css">
+  <link rel="stylesheet" href="fonts/znikomit/stylesheet.css">
+  <script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="header-wrap">
+        <div id="header"></div>
+        <div id="hidden"></div>
+        <div id="title"></div>
+        <div class="nav-container">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a> |</li>
+                    <li><a href="about.html">about</a> |</li>
+                    <li><a href="portfolio.html">portfolio</a> |</li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </div>
+  
+  <!-- can't get the below to start on a new block
+          solution: wrap the above block in something and position of two images: absolute -->
+
+  <div class="introduction">
+      <div class="container section">
+          <div class="row">
+              <div class="twelve columns">
+              <div class="section-title"><img src="images/intro-create5.png"></div>
+               <div class="intro-subtitle"><h5>My name's Michelle Kon and I'm a User Interface designer/developer and also a graphic designer.</h5></div>    
+               <hr>
+                  <p>One of my favorite feelings is to create something from absolutely nothing. A blank canvas. An emptly slate. To something amazing. Which is also why I love to code and see my designs come to life on this amazing thing called the Internet. I'm passionate about all things design and tech and designing for the web lets me combine these two passions.</p>
+                <p>When I'm not desinging or coding, I'll be listening to or making music, writing, reading up on new internet trends and skills, unwinding with a slow drive with the radio on or looking out for fresh inspiration. I'm always learning how to create things better so that I can create better things.</p>
+                <p>We're going to make something great together - I can see it happening already. </p>
+                <div class="lets-talk"><a class="button button-primary" href="mailto:mixstixx@gmail.com">Let's talk</a></div>
+              </div>
+          </div>
+      </div>
+    </div>
+  
+  <div class="skills">
+     <h4>Skills</h4>
+      <div class="container">
+          <div class="row skills-icons">
+              <div class="two columns offset-by-two"><img src="images/html5-new.png"><p>HTML5</p></div>
+              <div class="two columns"><img src="images/css3-new"><p>CSS3</p></div>
+              <div class="two columns"><img src="images/photoshop-new.png"><p>Photoshop</p></P></div>
+              <div class="two columns"><img src="images/illustrator.png"><p>Illustrator</p></div>
+          </div>
+          <div class="row skills-icons">
+              <div class="two columns offset-by-two"><img src="images/skill-git.png"><p>Git version control</p></div>
+              <div class="two columns"><img src="images/skills-responsive.png"><p>Responsive design</p></div>
+              <div class="two columns"><img src="images/skills-jquery2.png"><p>jQuery</p></div>
+              <div class="two columns"><img src="images/skills-wordpress.png"><p>Wordpress</p></div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="portfolio">
+     <h4>Portfolio</h4>
+      <div class="container">
+          <div class="row">
+              <div class="one-half column">
+                 <div class="port-box">
+                       <a href="portfolio/flyer-redesign.html"><div class="port-pic"><img src="images/portfolio1.jpg"></div>
+                      <div class="port-text">
+                            <h5>Flyer Redesign</h5>
+                            <p>Showbox</p>
+                      </div></a>
+                  </div>
+              </div>
+              <div class="one-half column">
+                 <div class="port-box">
+                       <a href="portfolio/website-design.html"><div class="port-pic"><img src="images/portfolio5.jpg"></div>
+                      <div class="port-text">
+                            <h5>Website Design</h5>
+                            <p>mixstix.co</p>
+                      </div></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+           
+      <div class="container">
+          <div class="row">
+              <div class="one-half column">
+                  <div class="port-box">
+                      <a href="portfolio/fast-food.html"><div class="port-pic"><img src="images/portfolio6.jpg"></div>
+                      <div class="port-text">
+                            <h5>Fast Food Advertisement</h5>
+                            <p>Wendy's</p>
+                      </div></a>
+                  </div>
+              </div>
+              <div class="one-half column">
+                  <div class="port-box">
+                      <a href="portfolio/mobile-ad.html"><div class="port-pic"><img src="images/portfolio4.jpg"></div>
+                      <div class="port-text">
+                            <h5>Mobile Advertisement</h5>
+                            <p>Our Better World</p>
+                      </div></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="container">
+            <div class="row question">
+              <div class="twelve columns">
+                  <h5>If you and I could create something great together, what would it be?</h5>
+                  <input id="question" type="text" placeholder="What's a project you've always wanted to start?">
+                  <a class="button">Let's do it</a>
+              </div>
+            </div>
+        </div>
+      
+      <div class="container see-more">
+      <a class="button button-primary" href="portfolio.html">See more projects</a>
+      </div>
+  
+  </div>
+  
+
+  
+  <div class="clients">
+      <h4>Clients</h4>
+      <div class="container section">
+          <div class="row">
+              <div class="three columns"><img src="images/wendys.png"></div>
+              <div class="three columns"><img src="images/comchest.png"></div>
+              <div class="three columns"><img src="images/sb.png"></div>
+              <div class="three columns"><img src="images/obw.png"></div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="contact">
+      <h4>Contact</h4>
+      <div class="container section">
+          <div class="row">
+              <form id="contact-form">
+                <div class="six columns">
+                  <label for="exampleNameInput">Your name</label>
+                  <input class="u-full-width" name="name" type="text" id="exampleNameInput" required>
+                </div>
+                <div class="six columns">
+                  <label for="exampleEmailInput">Your email</label>
+                  <input class="u-full-width" name="email" type="text" id="exampleEmailInput" required>
+                </div>
+              </div>
+  <label for="exampleMessage">Message</label>
+              <textarea class="u-full-width" name="message" placeholder="Hi Michelle …" id="exampleMessage" required></textarea>
+              <label class="example-send-yourself-copy">
+                <input type="checkbox">
+                <span class="label-body">Send a copy to yourself</span>
+              </label>
+              <div class="button-wrap"><input class="button-primary" id="send-button" type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+      </div>
+  </div>
+  
+  <div class="footer">
+      <div class="top-footer">
+         <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </nav>
+          <div class="social">
+              <a href="https://www.facebook.com/michellekon" target="_blank"><img src="images/social-fb.png" class="social-icon"></a>
+              <a href="http://www.twitter.com/mixstix" target="_blank"><img src="images/social-twitter.png" class="social-icon"></a>
+              <a href="http://www.github.com/mixstix" target="_blank"><img src="images/social-github.png" class="social-icon"></a>
+              <a href="mailto:mixstixx@gmail.com"><img src="images/social-email2.png" class="social-icon"></a>
+          </div>
+          <p>Michelle Kon &copy; 2015. All rights reserved</p>
+      </div>
+      <div class="bottom-footer">
+         <div class="made-in">
+          <img src="images/madein.png">
+          </div>
+      </div>
+  </div>
+  
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
